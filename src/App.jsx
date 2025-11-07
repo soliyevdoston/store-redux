@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement, reset } from "./store/counterSlice";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Button } from "./components/ui/button";
+import { Card } from "./components/ui/card";
 
 export default function App() {
   const count = useSelector((state) => state.counter.value);
